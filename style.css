@@ -1,4 +1,4 @@
-.admin-panel {
+/* .admin-panel {
   background: #222;
   color: #fff;
   padding: 20px;
@@ -16,7 +16,7 @@
   padding: 8px;
   border-radius: 4px;
   border: none;
-  flex: 1; /* Makes inputs stretch evenly */
+  flex: 1; 
 }
 
 #add-movie-form button {
@@ -26,4 +26,4 @@
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
-}
+} */
