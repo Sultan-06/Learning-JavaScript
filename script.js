@@ -241,3 +241,67 @@ strings
 let str = "zaki";
 console.log(str);
 
+arrays
+
+let marks =[ 90, 80, 70, 60, 50];
+console.log(marks);
+
+
+let heros =["spider-man", "ironman", "thor", "hulk", "captain america"];
+console.log(heros);
+
+//Array indices
+
+console.log(marks[1]);
+
+marks[1] = 85;
+console.log(marks[1]);
+
+for(let i = 0; i < heros.length; i++){
+    console.log("hero =", heros[i]);
+}
+
+using for off loop
+
+for(let hero of heros){
+    console.log("hero =", hero.toUpperCase())
+}
+
+let marks =[ 90, 80, 70, 60, 50];
+
+let sum = 0;
+for(let value of marks){
+    sum = sum + value;
+}
+
+let avg = sum / marks.length;
+console.log("avg =", avg);
+console.log("sum =", sum);
+
+marks.push(40);
+console.log("marks =", marks);
+
+let markss = marks.pop();
+console.log("marks =", markss);
+
+console.log(marks.toString());
+
+
+let heros =["spider-man", "ironman", "thor", "hulk", "captain america"];
+
+let dcheros = ["batman", "superman", "wonder woman"]
+
+
+let allheros = heros.concat(dcheros);
+
+console.log(allheros);
+
+heros.shift();
+
+console.log(heros.slice(1, 4));
+
+let arr = [1, 2, 3, 4, 5];
+
+arr.splice(3, 1);
+console.log(arr);
+
