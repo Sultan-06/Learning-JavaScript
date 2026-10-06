@@ -305,3 +305,42 @@ let arr = [1, 2, 3, 4, 5];
 arr.splice(3, 1);
 console.log(arr);
 
+Functions
+
+function myfunc(){
+    console.log("learining javascript");
+}
+
+myfunc();
+
+
+function add(a, b){
+    sum = a + b;
+    return sum;
+}
+
+let val = add(5, 10);
+console.log("sum =", val);
+
+
+function multiply(a, b){
+    return a * b;
+}
+
+multiply(5, 10);
+console.log("product =", multiply(5, 10));
+
+
+ARROW FUNCTIONS
+
+const add = (a, b) => {
+    console.log(a+b);
+}
+add(5, 10);
+
+const multi = (a, b) =>{
+    console.log(a*b);
+}
+
+multi(5,10);
+
