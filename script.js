@@ -344,3 +344,49 @@ const multi = (a, b) =>{
 
 multi(5,10);
 
+for each loop
+let arr = ["delhi", "mumbai", "kolkata", "chennai", "bangalore"];
+
+arr.forEach((val, idx) =>{
+    console.log(val.toUpperCase(), idx);
+});
+
+let arr = [1, 2, 3, 4, 5];
+
+arr.forEach((num) => {
+    console.log(num * num);
+});
+
+
+MAP FUNCTION
+
+let nums = [1, 2, 3, 4, 5];
+
+
+let newarr = nums.map((num) => {
+    return num;
+});
+
+console.log(newarr);
+
+
+
+FILTER FUNCTION
+
+let ages = [12, 17, 20, 25, 30, 15];
+
+let adults = ages.filter((age) => {
+    return age >= 18;
+});
+console.log(adults);
+
+
+REDUCE FUNCTION
+
+let marks = [90, 80, 70, 60, 50];
+
+const total = marks.reduce((acc, curr) => {
+    return acc > curr ? acc : curr;
+})
+
+console.log("total =", total);
