@@ -10,8 +10,11 @@
 // console.dir(para);
 
 
-let elemens = document.querySelectorAll("p");
-console.log(elemens);
+// let elemens = document.querySelectorAll(".myClass");
+// console.log(elemens);
 
-let element = document.querySelector(".myClass");
-console.log(element);
+// let element = document.querySelector("#myId");
+// console.log(element);
+
+let div = document.querySelector("div");
+console.dir(div);
