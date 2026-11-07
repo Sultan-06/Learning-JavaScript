@@ -39,11 +39,25 @@
 // div.before(newBtn)
 
 
-let newHeading = document.createElement("h1");
-newHeading.innerHTML = "<i>this is a headinh</i>";
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>this is a headinh</i>";
 
-document.querySelector("body").prepend(newHeading)
+// document.querySelector("body").prepend(newHeading)
 
-let para = document.querySelector("p");
-para.remove();
+// let para = document.querySelector("p");
+// para.remove();
 
+let btn1 = document.querySelector("#btn1");
+
+btn1.onclick = () => {
+    console.log("button clicked");
+    let a = 25;
+    a++;
+    console.log(a);
+};
+
+let btn2 = document.querySelector("#btn2");
+
+btn2.ondblclick = () => {
+    console.log("button double-clicked");
+};
